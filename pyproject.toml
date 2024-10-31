@@ -109,7 +109,7 @@ dependencies = [
     "duckduckgo-search>=6.3.0",
     "langchain-elasticsearch>=0.2.0",
     "opensearch-py>=2.7.1",
-    "mem0ai>=0.1.21",
+    "mem0ai>=0.1.26",
 ]
 
 [project.urls]
