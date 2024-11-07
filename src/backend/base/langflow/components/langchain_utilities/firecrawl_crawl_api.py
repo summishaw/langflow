@@ -73,8 +73,7 @@ class FirecrawlCrawlApi(Component):
         app = FirecrawlApp(api_key=self.api_key)
         crawl_result = app.crawl_url(
             self.url,
-            params={
-            },
+            params={},
             idempotency_key=self.idempotency_key,
         )
 
